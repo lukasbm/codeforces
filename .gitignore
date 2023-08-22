@@ -1,0 +1,8 @@
+# ignore online judge files
+.cph
+*.prob
+
+# IDE files
+.vscode/
+.fleet/
+.idea/

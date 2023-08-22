@@ -39,7 +39,9 @@ soup = BeautifulSoup(html_text, "html.parser")
 
 description = soup.select(".problem-statement > p")
 input_specification = soup.select(".problem-statement > .input-specification > p").text
-output_specification = soup.select(".problem-statement > .output-specification > p").text
+output_specification = soup.select(
+    ".problem-statement > .output-specification > p"
+).text
 sample_tests = soup.select(".problem-statement > .sample-test")
 
 print(input_specification)

@@ -1,4 +1,5 @@
 # codeforces
+
 My codeforces competetive programming submissions
 
 ## Supported Languages
@@ -38,3 +39,23 @@ My codeforces competetive programming submissions
 - Scala 2.12.8
 - JavaScript V8 4.8.0
 - Node.js 12.16.3
+
+## Coding Setup
+
+Use trunk for linting and formatting.
+
+- https://docs.trunk.io/check/supported-linters
+- https://docs.trunk.io/runtimes
+
+Use the language specific language servers:
+
+- C/C++: clangd
+- Python: Pylance
+- Java: TODO
+
+For running the tests the VSCode extension `DivyanshuAgrawal.competitive-programming-helper` is used.
+
+TODO: codeforces cli: https://codeforces.com/blog/entry/66552
+TODO: auto submit: https://codeforces.com/blog/entry/116928
+TODO: look at: https://github.com/amit839/VS-Code-setup-for-Competitive-Programming
+TODO: my own problem copy script
