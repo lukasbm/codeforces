@@ -13,7 +13,6 @@ templates: Dict[langs, str] = {
     "cpp": os.path.join("templates", "template.cpp"),
 }
 
-
 parser = ArgumentParser(
     description="script to setup a codeforces problem in any programming language"
 )

@@ -59,3 +59,7 @@ TODO: codeforces cli: https://codeforces.com/blog/entry/66552
 TODO: auto submit: https://codeforces.com/blog/entry/116928
 TODO: look at: https://github.com/amit839/VS-Code-setup-for-Competitive-Programming
 TODO: my own problem copy script
+
+## Resources
+
+- https://cp-algorithms.com/
