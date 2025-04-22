@@ -21,7 +21,7 @@ shiftStream u xs = concat (iterate (cycleShift u) xs)
 -- FIXME: if anything is broken, it should be fixable by tweaking the shiftStream offset!
 -- solution: just start writing out the symbols in order, e.g. 1,2,3 once the max is reached, cyclic shift it and continue 1,2,3, 3,1,2, 2,3,1
 solve :: Int -> Int -> Int -> [Int]
-solve n m k = take (n * m) $ shiftStream (k `mod` m + 1) [1 .. k]
+solve n m k = take (n * m) $ shiftStream (k `mod` m) [1 .. k]
 
 printGridThis :: Int -> [Int] -> IO ()
 printGridThis m [] = return ()
